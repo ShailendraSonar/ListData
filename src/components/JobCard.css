@@ -1,0 +1,81 @@
+.job-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  body{
+    background-color: #D5E2FF;
+    padding: 0px 20px;
+  }
+  .margin_auto, .ant-tabs-content-holder{
+    margin: 0 auto !important;
+  }
+  .job-card-header {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .job-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .company-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-name {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .location {
+    font-style: italic;
+    color: #e7e7e9;
+  }
+  
+  .job-card-body {
+    font-size: 16px;
+  }
+  
+  .job-card-footer {
+    text-align: right;
+  }
+  
+  .apply-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #000;
+    color: white;
+  }
+  .jobHeading{
+    text-align: center;
+  }
+
+  .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #1f6411 !important;
+  }
+
+  .ant-tabs .ant-tabs-ink-bar{
+    background: #1f6411 !important;
+  }
+  .applyicon{
+    position: relative;
+    top: 3px;
+    left: 6px;
+  }
+  .locationicon{
+
+  }
